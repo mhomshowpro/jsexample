@@ -1,3 +1,5 @@
-for(var i=0;i<10;i++){
+function helloInterval(){
   console.log("Hello World!!!")
 }
+
+setInterval(helloInterval,1000)
